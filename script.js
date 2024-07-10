@@ -32,8 +32,8 @@ const resetDisplay = () => {
 const getPokemon = async () => {
   try {
     const pokemonNameOrId = searchInput.value.toLowerCase();
-const response = await fetch(`https://pokeapi.co/api/v2/pokemon/${pokemonNameOrId}`);
-    
+    const response = await fetch(`https://pokeapi.co/api/v2/pokemon/${pokemonNameOrId}`);
+
     if (!response.ok) {
       throw new Error('Pokémon not found');
     }
@@ -57,6 +57,7 @@ const response = await fetch(`https://pokeapi.co/api/v2/pokemon/${pokemonNameOrI
   } catch (err) {
     resetDisplay();
     alert('Pokémon not found');
+    // eslint-disable-next-line no-console
     console.error(`Pokemon not found: ${err}`);
   }
 };
