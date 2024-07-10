@@ -24,13 +24,13 @@ main {
 }
 
 h1 {
-  color: cyan; 
+  color: cyan;
   font-size: 1.7em;
   text-align: center;
   margin-bottom: 20px;
 }
 
-  .container {
+.container {
   width: 90%;
   max-width: 500px;
   margin: 25px auto;
@@ -74,7 +74,7 @@ label {
   padding: 12px 20px;
   border-radius: 20px;
   text-align: center;
-  background-color: cyan; 
+  background-color: cyan;
   color: #000;
   border: none;
   cursor: pointer;
@@ -88,7 +88,7 @@ label {
 #search-input:focus-visible,
 #search-button:focus-visible {
   outline: none;
-  box-shadow: 0 0 0 3px rgba(0, 255, 255, 0.5); 
+  box-shadow: 0 0 0 3px rgba(0, 255, 255, 0.5);
 }
 
 .output {
@@ -108,17 +108,17 @@ label {
   background-color: rgba(0, 0, 0, 0.5);
   color: #fff;
   border-radius: 8px;
-  }
+}
 
 .name-and-id {
   font-size: 1.1em;
   text-transform: capitalize;
   margin-bottom: 5px;
-  }
+}
 
 .size {
   font-size: 0.85rem;
-  }
+}
 
 .sprite-container {
   display: flex;
@@ -153,7 +153,7 @@ table {
   color: #000;
   background-color: cyan;
   margin-top: 20px;
-   border-radius: 8px;
+  border-radius: 8px;
 }
 
 td,
