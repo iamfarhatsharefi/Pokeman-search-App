@@ -6,7 +6,7 @@ body {
   height: 100vh;
   background: url('web\ background.jpeg') no-repeat center center fixed;
   background-size: cover;
-  color: #0a0a23; 
+  color: #0a0a23;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 0;
   padding: 0;
@@ -35,21 +35,21 @@ h1 {
   max-width: 500px;
   margin: 25px auto;
   background-color: rgba(255, 255, 255, 0.8);
-  border: 1px solid cyan; 
+  border: 1px solid cyan;
   border-radius: 15px;
   box-shadow: 10px 10px rgba(223, 220, 220, 0.75);
   padding: 20px;
   box-sizing: border-box;
 }
 
-  .output,
-  #search-form {
+.output,
+#search-form {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
 
-  #search-form {
+#search-form {
   margin: 10px 0;
   padding: 10px;
   border-radius: 8px 8px 0 0;
@@ -57,12 +57,12 @@ h1 {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
-  label {
+label {
   align-self: center;
   color: #fff;
 }
 
-  #search-input {
+#search-input {
   height: 40px;
   padding-left: 10px;
   width: 200px;
@@ -70,7 +70,7 @@ h1 {
   border: 1px solid #ccc;
 }
 
-  #search-button {
+#search-button {
   padding: 12px 20px;
   border-radius: 20px;
   text-align: center;
@@ -81,28 +81,28 @@ h1 {
   transition: background-color 0.3s ease;
 }
 
-  #search-button:hover {
+#search-button:hover {
   background-color: #00b3b3;
-  }
+}
 
-  #search-input:focus-visible,
-  #search-button:focus-visible {
+#search-input:focus-visible,
+#search-button:focus-visible {
   outline: none;
   box-shadow: 0 0 0 3px rgba(0, 255, 255, 0.5); 
 }
 
-  .output {
+.output {
   margin: 20px 0;
 }
 
-  .top-container,
-  .bottom-container {
+.top-container,
+.bottom-container {
   width: 100%;
   display: flex;
   flex-direction: column;
 }
 
-  .top-container {
+.top-container {
   margin-bottom: 10px;
   padding: 10px;
   background-color: rgba(0, 0, 0, 0.5);
@@ -110,54 +110,54 @@ h1 {
   border-radius: 8px;
   }
 
-  .name-and-id {
+.name-and-id {
   font-size: 1.1em;
   text-transform: capitalize;
   margin-bottom: 5px;
   }
 
-  .size {
+.size {
   font-size: 0.85rem;
   }
 
-  .sprite-container {
+.sprite-container {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-  #sprite {
+#sprite {
   width: 180px;
 }
 
-  #types {
+#types {
   display: flex;
   flex-wrap: wrap;
   gap: 5px;
 }
 
-  .type {
+.type {
   padding: 5px;
   font-size: 0.7rem;
   text-align: center;
   border-radius: 5px;
   text-transform: uppercase;
-  background-color: cyan; 
-  color: #000; 
+  background-color: cyan;
+  color: #000;
 }
 
-  table {
+table {
   width: 100%;
   border-collapse: collapse;
   font-size: 1rem;
   color: #000;
-  background-color: cyan; 
+  background-color: cyan;
   margin-top: 20px;
    border-radius: 8px;
 }
 
-  td,
-  th {
+td,
+th {
   padding: 8px;
   text-align: center;
 }
@@ -165,10 +165,10 @@ h1 {
 @media screen and (max-width: 768px) {
   .container {
     width: 90%;
-   }
+  }
 }
 
- @media screen and (max-width: 550px) {
+@media screen and (max-width: 550px) {
   h1 {
     font-size: 1.5em;
   }
@@ -199,5 +199,5 @@ h1 {
   #search-button {
     padding: 8px 14px;
     font-size: 0.9rem;
-    }
   }
+}
