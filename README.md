@@ -10,8 +10,8 @@ he Pokémon Search Web Application is a vibrant and engaging tool designed for P
 
 
 ## Demo 📸
-[Live Demo]()
-![Screenshot](./)
+[Live Demo]( https://iamfarhatsharefi.github.io/Pokeman-search-App/)
+![Screenshot](./picture%205.png)
 
 ## Technologies Used 🛠️
 
