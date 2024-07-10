@@ -17,18 +17,15 @@ he Pokémon Search Web Application is a vibrant and engaging tool designed for P
 
 
 - HTML
-<body>
-    <main>
-      <h1>Pokemon Search App</h1>
-      <div class="container">
+
         <form role="search" id="search-form">
           <label for="search-input">Search for Pokemon Name or ID:</label>
           <input type="text" name="pokemon" id="search-input" required />
           <button id="search-button">Search</button>
         </form>
 
-
 - CSS
+
 #search-button {
   padding: 12px 20px;
   border-radius: 20px;
@@ -40,8 +37,8 @@ he Pokémon Search Web Application is a vibrant and engaging tool designed for P
   transition: background-color 0.3s ease;
 }
 
-
 -java script
+
 const resetDisplay = () => {
   const sprite = document.getElementById('sprite');
   if (sprite) sprite.remove();
@@ -57,8 +54,6 @@ const resetDisplay = () => {
   specialDefense.textContent = '';
   speed.textContent = '';
 };
-
-
 
 ## Installation 💻
 
